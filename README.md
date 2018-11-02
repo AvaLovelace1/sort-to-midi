@@ -2,7 +2,7 @@
 
 A program that converts sorting algorithms to MIDI melodies. Inspired by [Sound of Sorting](http://panthema.net/2013/sound-of-sorting/) (but is much more musical!).
 
-An array is first filled with 5 octaves of a chosen scale and shuffled. It is then sorted using a chosen sorting algorithm, playing the corresponding note each time an element is moved. The results can be very beautiful or very weird (or both).
+An array is first filled with 5 octaves of a chosen scale in base C and shuffled. It is then sorted using a chosen sorting algorithm, playing the corresponding note each time an element is moved. The results can be very beautiful or very weird (or both).
 
 If you import the resulting MIDI file into a DAW (Logic Pro in this instance), you can clearly see the patterns created by the sort. It's quite an interesting visualization.
 
